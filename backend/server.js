@@ -8,7 +8,7 @@ const eventRoutes = require('./routes/eventRoutes');
 
 const app = express();
 
-// Connect to MongoDB
+// Connecting to MongoDB
 connectDB();
 
 // Middleware
